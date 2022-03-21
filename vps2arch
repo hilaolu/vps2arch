@@ -307,7 +307,7 @@ finalize() {
 
 bootloader=grub
 network=systemd-networkd
-mirrors=
+mirrors=https://mirrors.cernet.edu.cn
 
 while getopts ":b:m:n:h" opt; do
 	case $opt in
