@@ -291,7 +291,7 @@ finalize() {
 	EOF
 	
 	#reflector -l 35 -p https --sort rate --save /etc/pacman.d/mirrorlist
-        echo 'Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
+        echo 'Server = https://mirrors.cernet.edu.cn/archlinux/$repo/os/$arch' > /etc/pacman.d/mirrorlist
 	cat <<-EOF
 		Hi,
 		your VM has successfully been reimaged with Arch Linux.
